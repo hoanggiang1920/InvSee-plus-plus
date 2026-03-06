@@ -7,7 +7,7 @@ api-version: 1.16
 website: "https://github.com/Jannyboy11/InvSee-plus-plus/"
 prefix: "InvSee++"
 softdepend: [Vault, PerWorldInventory, Multiverse-Inventories, LuckPerms, GroupManager, BungeePerms, UltraPermissions]
-folia-supported: false
+folia-supported: true
 
 commands:
   invsee:
@@ -108,3 +108,4 @@ permissions:
   invseeplusplus.bypass-exempt.endersee:
     description: Ignore whether target players are exempted from having their enderchest spectated
     default: false
+
